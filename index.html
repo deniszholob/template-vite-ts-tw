@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite + TS</title>
+  </head>
+
+  <body
+    class="flex min-h-screen font-sans antialiased text-white bg-neutral-800 place-items-center"
+  >
+    <div class="max-w-screen-lg p-8 mx-auto text-center">
+      <div>
+        <div class="flex flex-row flex-wrap justify-center">
+          <a href="https://vitejs.dev" target="_blank">
+            <img src="public/vite.svg" class="logo hover:drop-shadow-[0_0_2em_#646cffaa]" alt="Vite logo" />
+          </a>
+
+          <a href="https://www.typescriptlang.org/" target="_blank">
+            <img
+              src="./src/typescript.svg"
+              class="logo hover:drop-shadow-[0_0_2em_#3178c6aa]"
+              alt="TypeScript logo"
+            />
+          </a>
+
+          <a href="https://tailwindcss.com" target="_blank">
+            <img
+              src="./src/tailwindcss.svg"
+              class="logo hover:drop-shadow-[0_0_2em_#38bdf8aa]"
+              alt="Tailwind logo"
+            />
+          </a>
+
+          <a href="https://prettier.io/" target="_blank">
+            <img
+              src="./src/prettier.svg"
+              class="logo hover:drop-shadow-[0_0_2em_#ea5e5eaa]"
+              alt="Prettier logo"
+            />
+          </a>
+        </div>
+
+        <h1 class="my-4 text-5xl font-bold">Vite + TypeScript + Tailwind + Prettier</h1>
+
+        <div class="p-8">
+          <button
+            id="counter"
+            type="button"
+            class="px-4 py-2 transition duration-300 border border-transparent rounded-md bg-neutral-900 hover:border-indigo-500 focus:border-indigo-500 focus:outline-none"
+          >
+            count is 0
+          </button>
+        </div>
+
+        <p class="mt-4 text-gray-400">
+          Click on the logos to learn more
+        </p>
+      </div>
+    </div>
+
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
